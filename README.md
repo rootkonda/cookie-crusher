@@ -1,2 +1,3 @@
 # Mini-Projects
-Pet Projects or Side Projects
+
+All kinds of popular pet projects written in python and C++
