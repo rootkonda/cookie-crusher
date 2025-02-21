@@ -1,3 +1,3 @@
-# Mini-Projects
+# cookie-crusher
 
-All kinds of popular pet projects written in python and C++
+Suppress the cookie pop-up banner's automatically
