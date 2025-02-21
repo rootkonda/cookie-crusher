@@ -1,3 +1,3 @@
 # cookie-crusher
 
-Suppress the cookie pop-up banner's automatically
+Suppress the cookie pop-up banner's automatically.
