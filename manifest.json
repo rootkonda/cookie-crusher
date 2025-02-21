@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Cookie Crusher",
+    "version": "1.0",
+    "description": "Automatically accepts or rejects cookie consent pop-ups",
+    "permissions": ["storage", "scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+      }
+  }
+  
